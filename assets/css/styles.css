@@ -2682,4 +2682,26 @@ BLOG Pagination
   line-height: 30px;
   margin-bottom: 30px; }
 
+/*
+=================
+Tech-Stack Format
+===============
+*/
+.tech-stack {
+  display: flex;
+  flex-wrap: wrap; /* Allow wrapping to fit within the container */
+  justify-content: center; /* Center the icons horizontally */
+  align-items: center;
+}
+
+.tech-thumbnail {
+  font-size: 36px; /* Set the same size for all icons */
+  width: 64px;
+  height: 64px;
+  margin: 2px; /* Add margin for spacing between icons */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /*# sourceMappingURL=styles.css.map */
